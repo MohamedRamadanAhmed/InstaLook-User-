@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC02FCBD228DB2BD003CDF8D /* TrafficLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC02FCBC228DB2BD003CDF8D /* TrafficLight.swift */; };
+		CC02FCBF228DB333003CDF8D /* TrafficLightPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC02FCBE228DB333003CDF8D /* TrafficLightPresenter.swift */; };
+		CC02FCC3228DB3B3003CDF8D /* TrafficLightService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC02FCC2228DB3B3003CDF8D /* TrafficLightService.swift */; };
+		CC11E55B2293FA9300BCDDBB /* UserProfileScenario.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC11E55A2293FA9300BCDDBB /* UserProfileScenario.storyboard */; };
+		CC5B8E6E2294A52000BA54CF /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5B8E6D2294A52000BA54CF /* ProfileViewController.swift */; };
+		CCA055B8228D8F2200E8ED65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA055B7228D8F2200E8ED65 /* AppDelegate.swift */; };
+		CCA055BA228D8F2200E8ED65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA055B9228D8F2200E8ED65 /* ViewController.swift */; };
+		CCA055BD228D8F2200E8ED65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCA055BB228D8F2200E8ED65 /* Main.storyboard */; };
+		CCA055C0228D8F2200E8ED65 /* Instalook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CCA055BE228D8F2200E8ED65 /* Instalook.xcdatamodeld */; };
+		CCA055C2228D8F2200E8ED65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCA055C1228D8F2200E8ED65 /* Assets.xcassets */; };
+		CCA055C5228D8F2200E8ED65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCA055C3228D8F2200E8ED65 /* LaunchScreen.storyboard */; };
+		CCA055D0228D8F2200E8ED65 /* InstalookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA055CF228D8F2200E8ED65 /* InstalookTests.swift */; };
+		CCA055DB228D8F2200E8ED65 /* InstalookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA055DA228D8F2200E8ED65 /* InstalookUITests.swift */; };
+		CCAAB905229433E20021F51B /* Mountain Landscape.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCAAB904229433E20021F51B /* Mountain Landscape.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCA055CC228D8F2200E8ED65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCA055AC228D8F2200E8ED65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCA055B3228D8F2200E8ED65;
+			remoteInfo = Instalook;
+		};
+		CCA055D7228D8F2200E8ED65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCA055AC228D8F2200E8ED65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCA055B3228D8F2200E8ED65;
+			remoteInfo = Instalook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC02FCBC228DB2BD003CDF8D /* TrafficLight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TrafficLight.swift; path = Models/TrafficLight.swift; sourceTree = "<group>"; };
+		CC02FCBE228DB333003CDF8D /* TrafficLightPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TrafficLightPresenter.swift; path = Presenters/TrafficLightPresenter.swift; sourceTree = "<group>"; };
+		CC02FCC2228DB3B3003CDF8D /* TrafficLightService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TrafficLightService.swift; path = DataSource/TrafficLightService.swift; sourceTree = "<group>"; };
+		CC11E55A2293FA9300BCDDBB /* UserProfileScenario.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = UserProfileScenario.storyboard; sourceTree = "<group>"; };
+		CC5B8E6D2294A52000BA54CF /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		CCA055B4228D8F2200E8ED65 /* Instalook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instalook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCA055B7228D8F2200E8ED65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Instalook/AppDelegate.swift; sourceTree = "<group>"; };
+		CCA055B9228D8F2200E8ED65 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Views/ViewController.swift; sourceTree = "<group>"; };
+		CCA055BC228D8F2200E8ED65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCA055BF228D8F2200E8ED65 /* Instalook.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Instalook.xcdatamodel; sourceTree = "<group>"; };
+		CCA055C1228D8F2200E8ED65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Instalook/Assets.xcassets; sourceTree = "<group>"; };
+		CCA055C4228D8F2200E8ED65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CCA055C6228D8F2200E8ED65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Instalook/Info.plist; sourceTree = "<group>"; };
+		CCA055CB228D8F2200E8ED65 /* InstalookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstalookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCA055CF228D8F2200E8ED65 /* InstalookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstalookTests.swift; sourceTree = "<group>"; };
+		CCA055D1228D8F2200E8ED65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCA055D6228D8F2200E8ED65 /* InstalookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstalookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCA055DA228D8F2200E8ED65 /* InstalookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstalookUITests.swift; sourceTree = "<group>"; };
+		CCA055DC228D8F2200E8ED65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCAAB904229433E20021F51B /* Mountain Landscape.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Mountain Landscape.jpg"; path = "../../Desktop/Pictures/Mountain Landscape.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCA055B1228D8F2200E8ED65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCA055C8228D8F2200E8ED65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCA055D3228D8F2200E8ED65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC278A062293EA8D001E51AA /* Stroyboards */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Stroyboards;
+			sourceTree = "<group>";
+		};
+		CCA055AB228D8F2200E8ED65 = {
+			isa = PBXGroup;
+			children = (
+				CC278A062293EA8D001E51AA /* Stroyboards */,
+				CCA055EC228D9A8E00E8ED65 /* Base.lproj */,
+				CCA055B7228D8F2200E8ED65 /* AppDelegate.swift */,
+				CCA055C1228D8F2200E8ED65 /* Assets.xcassets */,
+				CCA055C6228D8F2200E8ED65 /* Info.plist */,
+				CCA055BE228D8F2200E8ED65 /* Instalook.xcdatamodeld */,
+				CCA055EB228D992400E8ED65 /* Views */,
+				CCA055EA228D991900E8ED65 /* Presenters */,
+				CCA055E9228D990B00E8ED65 /* Models */,
+				CCA055E8228D98F700E8ED65 /* DataSource */,
+				CCA055B6228D8F2200E8ED65 /* Instalook */,
+				CCA055CE228D8F2200E8ED65 /* InstalookTests */,
+				CCA055D9228D8F2200E8ED65 /* InstalookUITests */,
+				CCA055B5228D8F2200E8ED65 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCA055B5228D8F2200E8ED65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCA055B4228D8F2200E8ED65 /* Instalook.app */,
+				CCA055CB228D8F2200E8ED65 /* InstalookTests.xctest */,
+				CCA055D6228D8F2200E8ED65 /* InstalookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCA055B6228D8F2200E8ED65 /* Instalook */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Instalook;
+			sourceTree = "<group>";
+		};
+		CCA055CE228D8F2200E8ED65 /* InstalookTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCA055CF228D8F2200E8ED65 /* InstalookTests.swift */,
+				CCA055D1228D8F2200E8ED65 /* Info.plist */,
+			);
+			path = InstalookTests;
+			sourceTree = "<group>";
+		};
+		CCA055D9228D8F2200E8ED65 /* InstalookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CCA055DA228D8F2200E8ED65 /* InstalookUITests.swift */,
+				CCA055DC228D8F2200E8ED65 /* Info.plist */,
+			);
+			path = InstalookUITests;
+			sourceTree = "<group>";
+		};
+		CCA055E8228D98F700E8ED65 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				CC02FCC2228DB3B3003CDF8D /* TrafficLightService.swift */,
+			);
+			name = DataSource;
+			sourceTree = "<group>";
+		};
+		CCA055E9228D990B00E8ED65 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CC02FCBC228DB2BD003CDF8D /* TrafficLight.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		CCA055EA228D991900E8ED65 /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				CC02FCBE228DB333003CDF8D /* TrafficLightPresenter.swift */,
+			);
+			name = Presenters;
+			sourceTree = "<group>";
+		};
+		CCA055EB228D992400E8ED65 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CCA055B9228D8F2200E8ED65 /* ViewController.swift */,
+				CC5B8E6D2294A52000BA54CF /* ProfileViewController.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		CCA055EC228D9A8E00E8ED65 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				CCA055C3228D8F2200E8ED65 /* LaunchScreen.storyboard */,
+				CCAAB904229433E20021F51B /* Mountain Landscape.jpg */,
+				CCA055BB228D8F2200E8ED65 /* Main.storyboard */,
+				CC11E55A2293FA9300BCDDBB /* UserProfileScenario.storyboard */,
+			);
+			name = Base.lproj;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCA055B3228D8F2200E8ED65 /* Instalook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCA055DF228D8F2200E8ED65 /* Build configuration list for PBXNativeTarget "Instalook" */;
+			buildPhases = (
+				CCA055B0228D8F2200E8ED65 /* Sources */,
+				CCA055B1228D8F2200E8ED65 /* Frameworks */,
+				CCA055B2228D8F2200E8ED65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Instalook;
+			productName = Instalook;
+			productReference = CCA055B4228D8F2200E8ED65 /* Instalook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCA055CA228D8F2200E8ED65 /* InstalookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCA055E2228D8F2200E8ED65 /* Build configuration list for PBXNativeTarget "InstalookTests" */;
+			buildPhases = (
+				CCA055C7228D8F2200E8ED65 /* Sources */,
+				CCA055C8228D8F2200E8ED65 /* Frameworks */,
+				CCA055C9228D8F2200E8ED65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCA055CD228D8F2200E8ED65 /* PBXTargetDependency */,
+			);
+			name = InstalookTests;
+			productName = InstalookTests;
+			productReference = CCA055CB228D8F2200E8ED65 /* InstalookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CCA055D5228D8F2200E8ED65 /* InstalookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCA055E5228D8F2200E8ED65 /* Build configuration list for PBXNativeTarget "InstalookUITests" */;
+			buildPhases = (
+				CCA055D2228D8F2200E8ED65 /* Sources */,
+				CCA055D3228D8F2200E8ED65 /* Frameworks */,
+				CCA055D4228D8F2200E8ED65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCA055D8228D8F2200E8ED65 /* PBXTargetDependency */,
+			);
+			name = InstalookUITests;
+			productName = InstalookUITests;
+			productReference = CCA055D6228D8F2200E8ED65 /* InstalookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCA055AC228D8F2200E8ED65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = jets;
+				TargetAttributes = {
+					CCA055B3228D8F2200E8ED65 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
+					};
+					CCA055CA228D8F2200E8ED65 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
+						TestTargetID = CCA055B3228D8F2200E8ED65;
+					};
+					CCA055D5228D8F2200E8ED65 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
+						TestTargetID = CCA055B3228D8F2200E8ED65;
+					};
+				};
+			};
+			buildConfigurationList = CCA055AF228D8F2200E8ED65 /* Build configuration list for PBXProject "Instalook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCA055AB228D8F2200E8ED65;
+			productRefGroup = CCA055B5228D8F2200E8ED65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCA055B3228D8F2200E8ED65 /* Instalook */,
+				CCA055CA228D8F2200E8ED65 /* InstalookTests */,
+				CCA055D5228D8F2200E8ED65 /* InstalookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCA055B2228D8F2200E8ED65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCAAB905229433E20021F51B /* Mountain Landscape.jpg in Resources */,
+				CCA055C5228D8F2200E8ED65 /* LaunchScreen.storyboard in Resources */,
+				CC11E55B2293FA9300BCDDBB /* UserProfileScenario.storyboard in Resources */,
+				CCA055C2228D8F2200E8ED65 /* Assets.xcassets in Resources */,
+				CCA055BD228D8F2200E8ED65 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCA055C9228D8F2200E8ED65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCA055D4228D8F2200E8ED65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCA055B0228D8F2200E8ED65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC02FCC3228DB3B3003CDF8D /* TrafficLightService.swift in Sources */,
+				CC02FCBD228DB2BD003CDF8D /* TrafficLight.swift in Sources */,
+				CCA055C0228D8F2200E8ED65 /* Instalook.xcdatamodeld in Sources */,
+				CCA055BA228D8F2200E8ED65 /* ViewController.swift in Sources */,
+				CC5B8E6E2294A52000BA54CF /* ProfileViewController.swift in Sources */,
+				CCA055B8228D8F2200E8ED65 /* AppDelegate.swift in Sources */,
+				CC02FCBF228DB333003CDF8D /* TrafficLightPresenter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCA055C7228D8F2200E8ED65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA055D0228D8F2200E8ED65 /* InstalookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCA055D2228D8F2200E8ED65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA055DB228D8F2200E8ED65 /* InstalookUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCA055CD228D8F2200E8ED65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCA055B3228D8F2200E8ED65 /* Instalook */;
+			targetProxy = CCA055CC228D8F2200E8ED65 /* PBXContainerItemProxy */;
+		};
+		CCA055D8228D8F2200E8ED65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCA055B3228D8F2200E8ED65 /* Instalook */;
+			targetProxy = CCA055D7228D8F2200E8ED65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCA055BB228D8F2200E8ED65 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCA055BC228D8F2200E8ED65 /* Base */,
+			);
+			name = Main.storyboard;
+			path = Instalook;
+			sourceTree = "<group>";
+		};
+		CCA055C3228D8F2200E8ED65 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCA055C4228D8F2200E8ED65 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = Instalook;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCA055DD228D8F2200E8ED65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CCA055DE228D8F2200E8ED65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCA055E0228D8F2200E8ED65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Instalook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = instalook.Instalook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CCA055E1228D8F2200E8ED65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Instalook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = instalook.Instalook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CCA055E3228D8F2200E8ED65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = InstalookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = instalook.InstalookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Instalook.app/Instalook";
+			};
+			name = Debug;
+		};
+		CCA055E4228D8F2200E8ED65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = InstalookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = instalook.InstalookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Instalook.app/Instalook";
+			};
+			name = Release;
+		};
+		CCA055E6228D8F2200E8ED65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = InstalookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = instalook.InstalookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Instalook;
+			};
+			name = Debug;
+		};
+		CCA055E7228D8F2200E8ED65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = InstalookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = instalook.InstalookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Instalook;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCA055AF228D8F2200E8ED65 /* Build configuration list for PBXProject "Instalook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCA055DD228D8F2200E8ED65 /* Debug */,
+				CCA055DE228D8F2200E8ED65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCA055DF228D8F2200E8ED65 /* Build configuration list for PBXNativeTarget "Instalook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCA055E0228D8F2200E8ED65 /* Debug */,
+				CCA055E1228D8F2200E8ED65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCA055E2228D8F2200E8ED65 /* Build configuration list for PBXNativeTarget "InstalookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCA055E3228D8F2200E8ED65 /* Debug */,
+				CCA055E4228D8F2200E8ED65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCA055E5228D8F2200E8ED65 /* Build configuration list for PBXNativeTarget "InstalookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCA055E6228D8F2200E8ED65 /* Debug */,
+				CCA055E7228D8F2200E8ED65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CCA055BE228D8F2200E8ED65 /* Instalook.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CCA055BF228D8F2200E8ED65 /* Instalook.xcdatamodel */,
+			);
+			currentVersion = CCA055BF228D8F2200E8ED65 /* Instalook.xcdatamodel */;
+			name = Instalook.xcdatamodeld;
+			path = Instalook/Instalook.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CCA055AC228D8F2200E8ED65 /* Project object */;
+}
